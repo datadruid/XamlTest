@@ -20,9 +20,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GoogleMaps\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GoogleMaps\SilverMapStyle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)GoogleMaps\" />
   </ItemGroup>
 </Project>
