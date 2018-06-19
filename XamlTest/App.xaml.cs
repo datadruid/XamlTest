@@ -11,6 +11,8 @@ namespace XamlTest
         {
             InitializeComponent();
 
+            //Opening the First Page
+
             MainPage = new MainPage();
         }
 

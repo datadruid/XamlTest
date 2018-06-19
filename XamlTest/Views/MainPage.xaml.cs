@@ -12,6 +12,8 @@ namespace XamlTest
     {
         public MainPage()
         {
+
+
             InitializeComponent();
             var vm = new MainViewModel();
             BindingContext = vm;

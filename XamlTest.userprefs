@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{51046D2C-DB5F-4896-B835-616913EC4FE1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamlTest/App.xaml.cs">
+    <Files>
+      <File FileName="XamlTest/Views/MainPage.xaml" Line="8" Column="15" />
+      <File FileName="XamlTest/Views/MainPage.xaml.cs" Line="15" Column="13" />
+      <File FileName="XamlTest/App.xaml.cs" Line="14" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamlTest.Android PreferredExecutionTarget="Android.andoid7" />
+</Properties>
