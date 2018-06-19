@@ -22,7 +22,10 @@ namespace XamlTest.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            App.ScreenWidth = (double)UIScreen.MainScreen.Bounds.Width;
+            App.ScreenHeight = (double)UIScreen.MainScreen.Bounds.Height;
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init();      
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

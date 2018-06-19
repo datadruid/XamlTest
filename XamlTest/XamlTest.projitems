@@ -11,21 +11,27 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Localized\en-us.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\AppButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles\AppButtonStyles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles\AppFonts.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GoogleMaps\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GoogleMaps\SilverMapStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LocationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)GoogleMaps\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Localized\" />
   </ItemGroup>
 </Project>

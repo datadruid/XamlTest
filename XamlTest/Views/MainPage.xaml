@@ -2,7 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:XamlTest" 
-             x:Class="XamlTest.MainPage">
-    <StackLayout>
-    </StackLayout>
+             x:Class="XamlTest.MainPage"
+             xmlns:loc="clr-namespace:DewCore.Xamarin.Localization;assembly=DewXamarinLocalization"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+   <ContentPage.Content>
+       <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <AbsoluteLayout>
+                 <maps:Map AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"
+                            x:Name="MyMap"
+                            IsShowingUser="true"
+                            MapType="Street"
+                  />
+                <Frame BackgroundColor="{StaticResource DefaultWhite}" CornerRadius="10" AbsoluteLayout.LayoutBounds=".5,1,.9,.4" AbsoluteLayout.LayoutFlags="All">
+                    <Grid ColumnSpacing="10">
+                      <Grid.RowDefinitions>
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="60*"/>
+                      </Grid.RowDefinitions>
+                      <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                      </Grid.ColumnDefinitions>
+                        <Label TextColor="{StaticResource DefaultGray}" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{loc:_ S=HeadingText}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></Label>
+                        <Frame Grid.Row="1" HasShadow="{Binding PracticeButtonFrameShadow}" CornerRadius="20" Grid.Column="0" Padding="0">
+                            <local:AppButton Text="{loc:_ S=PracticeButtonText}" Command="{Binding PracticeButtonCommand}" Image="practiceicon" TextColor="{StaticResource DefaultBlack}" FontAttributes="Bold" BorderColor="{Binding PracticeButtonBorderColor}" BackgroundColor="{Binding PracticeButtonBackgroundColor}" BorderRadius="20" Grid.Row="1" Grid.Column="0"/>
+                        </Frame>
+                        <Frame HasShadow="{Binding LessonButtonFrameShadow}" CornerRadius="20" Grid.Row="1" Grid.Column="1" Padding="0">
+                            <local:AppButton Text="{loc:_ S=LessonButtonText}" Command="{Binding LessonButtonCommand}" Image="lessonicon" TextColor="{StaticResource DefaultBlack}" FontAttributes="Bold" BorderColor="{Binding LessonButtonBorderColor}" BorderRadius="20" BackgroundColor="{Binding LessonButtonBackgroundColor}" Grid.Row="1" Grid.Column="1"/>
+                        </Frame>
+                        <local:AppButton x:Name="goButton" BorderColor="{StaticResource DefaultTransparent}" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="{Binding GoButtonBackgroundColor}" Opacity="0.5" TextColor="White" Text="{loc:_ S=GoButtonText}" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    </Grid>
+                </Frame>
+                <Button Image="arrowleftblack" BackgroundColor="{StaticResource DefaultWhite}" AbsoluteLayout.LayoutBounds="0,.04,.2,.1" AbsoluteLayout.LayoutFlags="All">
+                </Button>
+           </AbsoluteLayout>
+       </Grid>
+ </ContentPage.Content>
 </ContentPage>

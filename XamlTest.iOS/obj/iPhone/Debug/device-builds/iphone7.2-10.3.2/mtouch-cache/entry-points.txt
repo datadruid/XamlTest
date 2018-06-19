@@ -1,0 +1,27 @@
+Function=xamarin_timezone_get_data
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/System.dll
+Function=UIApplicationMain
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/priyarastogi/Downloads/Latest/XamlTest-master/XamlTest-master/XamlTest.iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=mono_pmip
