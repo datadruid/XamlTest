@@ -1,5 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlTest.App">
     <Application.Resources>
+        <Color x:Key="DefaultWhite">White</Color>
+        <Color x:Key="DefaultGray">Gray</Color>
+        <Color x:Key="DefaultBlack">Black</Color>
+        <Color x:Key="DefaultTransparent">Transparent</Color>
+        <Style x:Key="LessonButtonStyle" TargetType="Button">
+            <Setter Property="Text" Value="LESSON" />
+        </Style>
     </Application.Resources>
 </Application>

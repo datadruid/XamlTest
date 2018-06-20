@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{51046D2C-DB5F-4896-B835-616913EC4FE1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamlTest.iOS/Info.plist">
+    <Files>
+      <File FileName="XamlTest.iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamlTest.Android PreferredExecutionTarget="Android.andoid7" />
+</Properties>

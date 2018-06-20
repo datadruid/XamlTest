@@ -18,3 +18,5 @@ The other button (not selected)  border turns white and a shadow is added. (seco
 
 The Google Maps API Key and Custom Formatting JSON are in the GoogleMaps Directory in the Project.
 
+640 height
+360 width
